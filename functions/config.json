@@ -63,10 +63,10 @@
 			"passPhrase": null
 		},
 		"paypal": {
-			"active": false,
-			"testing": true,
-			"paypal_client_id": "XXXXXXXXXXXXXXX",
-			"paypal_secret": "XXXXXXXXXXXXXXX"
+			"active": true,
+			"testing": false,
+			"paypal_client_id": "Ab-iZpRBUAOVQD060AXXNdDhaFZnZiCyWg8XZkrUg2B82HXgdkjxBrFRuNcUkmz5rCm0CWXimyTVQEP-",
+			"paypal_secret": "EANo-uAKB5GMe4oh1AoWCdT0PIkDRGEgGzrpm_G6hN7dPpD47CcA6mPuvc9eDNoFliDrivRn0YGGNKpJ"
 		},
 		"paystack": {
 			"active": true,
