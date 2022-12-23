@@ -1,30 +1,30 @@
 {
-	"app_name": "Your App Name",
-	"app_description": "Your App Description Here",
-	"app_identifier": "com.something.app",
+	"app_name": "Namenayou Taxi",
+	"app_description": "Nameayou Taxi is an online taxi application that enable the user to book for near by taxi from wherever they are using their map location.",
+	"app_identifier": "com.pej4more.namenayoutaxing",
 	"ios_app_version": "1.0.0",
 	"android_app_version": "100",
-	"facebookAppId": "12345",
-	"facebookClientToken": "XXXXXXXXXXXXXXX",
-	"firebaseProjectId": "XXXXXXXXXXXXXXX",
+	"facebookAppId": "1089200168244478",
+	"facebookClientToken": "fa88b0a8233c6f678e404132ecb483ad",
+	"firebaseProjectId": "ng-taxi-84761",
 	"googleApiKeys": {
-		"ios": "XXXXXXXXXXXXXXX",
-		"android": "XXXXXXXXXXXXXXX",
-		"web": "XXXXXXXXXXXXXXX",
-		"server": "XXXXXXXXXXXXXXX"
+		"ios": "AIzaSyCU1rQUP-R0rNi_hWh0U9SLv7fOeKKYRzc",
+		"android": "AIzaSyDET6L4SN9t2wvtVjhsqQoDDqcpz3cg8D4",
+		"web": "AIzaSyDBkqq9NHFV0DpvrXOfkyLPTJBkbfQj0Pg",
+		"server": "AIzaSyD1l6JJSMs_4A2fVtFefOvbWqh8Tb2e-Rk"
 	},
-	"expo_owner": "XXXXXXXXXXXXXXX",
-	"expo_slug": "XXXXXXXXXXXXXXX",
-	"expo_project_id": "XXXXXXXXXXXXXXX",
-	"admin_email": "XXXXXXXXXXXXXXX",
-	"codecanyon_purchase_code": "XXXXXXXXXXXXXXX",
+	"expo_owner": "namenayoutaxi",
+	"expo_slug": "namenayou-taxi",
+	"expo_project_id": "2d8ce5c1-db68-4502-ae08-4af011d0492a",
+	"admin_email": "pej4more@gmail.com",
+	"codecanyon_purchase_code": "3150fde6-a981-403a-b467-e1e601712e38",
 	"smtpDetails": {
 		"host": "smtp.gmail.com",
 		"port": 465,
 		"secure": true,
 		"auth": {
-			"user": "XXXXXXXXXXXXXXX",
-			"pass": "XXXXXXXXXXXXXXX"
+			"user": "pej4more@gmail.com",
+			"pass": "Mysp3namenayou2020"
 		}
 	},
 	"paymentMethods": {
@@ -69,9 +69,9 @@
 			"paypal_secret": "XXXXXXXXXXXXXXX"
 		},
 		"paystack": {
-			"active": false,
-			"PAYSTACK_PUBLIC_KEY": "XXXXXXXXXXXXXXX",
-			"PAYSTACK_SECRET_KEY": "XXXXXXXXXXXXXXX"
+			"active": true,
+			"PAYSTACK_PUBLIC_KEY": "pk_test_863e48483fb793672ea728622fd95055d0a2e3e0",
+			"PAYSTACK_SECRET_KEY": "sk_test_972c2c93022a7ee4f1f5470ce3bcc1f60fa9dae7"
 		},
 		"paytm": {
 			"active": false,
