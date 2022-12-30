@@ -8,10 +8,10 @@
 	"facebookClientToken": "1e7dd170f057178b549cb55982bb472b",
 	"firebaseProjectId": "nayoutaxi",
 	"googleApiKeys": {
-		"ios":     "AIzaSyASx5f_BtgBMqnc__rTCKavfGKdeZwLrgI",
-		"android": "AIzaSyASx5f_BtgBMqnc__rTCKavfGKdeZwLrgI",
-		"web":     "AIzaSyASx5f_BtgBMqnc__rTCKavfGKdeZwLrgI",
-		"server":  "AIzaSyASx5f_BtgBMqnc__rTCKavfGKdeZwLrgI"
+		"ios":     "",
+		"android": "",
+		"web":     "",
+		"server":  ""
 	},
 	"expo_owner": "pej4more",
 	"expo_slug": "nayoutaxi",
