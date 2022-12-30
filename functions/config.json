@@ -1,22 +1,22 @@
 {
-	"app_name": "Namenayou Taxi",
-	"app_description": "Nameayou Taxi is an online taxi application that enable the user to book for near by taxi from wherever they are using their map location.",
-	"app_identifier": "com.pej4more.namenayoutaxing",
+	"app_name": "namenayoutaxi",
+	"app_description": "Your App Description Here",
+	"app_identifier": "com.pej4more.namenayoutaxi",
 	"ios_app_version": "1.0.0",
 	"android_app_version": "100",
-	"facebookAppId": "1089200168244478",
-	"facebookClientToken": "fa88b0a8233c6f678e404132ecb483ad",
-	"firebaseProjectId": "ng-taxi-84761",
+	"facebookAppId": "858563735455271",
+	"facebookClientToken": "1e7dd170f057178b549cb55982bb472b",
+	"firebaseProjectId": "nayoutaxi",
 	"googleApiKeys": {
-		"ios": "AIzaSyCU1rQUP-R0rNi_hWh0U9SLv7fOeKKYRzc",
-		"android": "AIzaSyDET6L4SN9t2wvtVjhsqQoDDqcpz3cg8D4",
-		"web": "AIzaSyDBkqq9NHFV0DpvrXOfkyLPTJBkbfQj0Pg",
-		"server": "AIzaSyD1l6JJSMs_4A2fVtFefOvbWqh8Tb2e-Rk"
+		"ios":     "AIzaSyASx5f_BtgBMqnc__rTCKavfGKdeZwLrgI",
+		"android": "AIzaSyASx5f_BtgBMqnc__rTCKavfGKdeZwLrgI",
+		"web":     "AIzaSyASx5f_BtgBMqnc__rTCKavfGKdeZwLrgI",
+		"server":  "AIzaSyASx5f_BtgBMqnc__rTCKavfGKdeZwLrgI"
 	},
-	"expo_owner": "namenayoutaxi",
-	"expo_slug": "namenayou-taxi",
-	"expo_project_id": "2d8ce5c1-db68-4502-ae08-4af011d0492a",
-	"admin_email": "pej4more@gmail.com",
+	"expo_owner": "pej4more",
+	"expo_slug": "nayoutaxi",
+	"expo_project_id": "2ed40160-c346-47d8-a463-9b1ccb98e5fe",
+	"admin_email": "Pej4more@outlook.com",
 	"codecanyon_purchase_code": "3150fde6-a981-403a-b467-e1e601712e38",
 	"smtpDetails": {
 		"host": "smtp.gmail.com",
@@ -24,7 +24,7 @@
 		"secure": true,
 		"auth": {
 			"user": "pej4more@gmail.com",
-			"pass": "Mysp3namenayou2020"
+			"pass": "xpqqkzvuiekdbmap"
 		}
 	},
 	"paymentMethods": {

@@ -1,1 +1,1 @@
-export default 'taxi';
+export default 'namenayoutaxi';

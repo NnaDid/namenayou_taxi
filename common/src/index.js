@@ -1,122 +1,77 @@
-import React, { createContext } from 'react';
 import app from 'firebase/app';
-import 'firebase/database';
 import 'firebase/auth';
+import 'firebase/database';
 import 'firebase/storage';
+import React, { createContext } from 'react';
 import store from './store/store';
 
 import {
-    fetchUser,
+    appleSignIn, checkUserExists, clearLoginError, deleteUser, facebookSignIn, fetchProfile, fetchUser,
     mainSignUp,
-    mobileSignIn,
-    facebookSignIn,
-    appleSignIn,
-    signOut,
-    updateProfile,
-    clearLoginError,
-    updatePushToken,
-    updateProfileImage,
-    requestPhoneOtpDevice,
-    deleteUser,
-    validateReferer,
-    checkUserExists,
-    monitorProfileChanges,
-    fetchProfile,
-    updateWebProfileImage,
-    requestEmailOtp,
-    verifyEmailOtp,
-    readProfile
+    mobileSignIn, monitorProfileChanges, readProfile, requestEmailOtp, requestPhoneOtpDevice, signOut,
+    updateProfile, updateProfileImage, updatePushToken, updateWebProfileImage, validateReferer, verifyEmailOtp
 } from './actions/authactions';
 import {
     addBooking,
     clearBooking
 } from './actions/bookingactions';
 import {
-    fetchBookings,
-    updateBooking,
-    cancelBooking,
-    updateBookingImage
+    cancelBooking, fetchBookings,
+    updateBooking, updateBookingImage
 } from './actions/bookinglistactions';
-import { 
-    fetchCancelReasons,
-    editCancellationReason
+import {
+    editCancellationReason, fetchCancelReasons
 } from './actions/cancelreasonactions';
-import { 
-    fetchCarTypes,
-    editCarType
+import {
+    editCarType, fetchCarTypes
 } from './actions/cartypeactions';
 import {
-    getEstimate,
-    clearEstimate
-} from './actions/estimateactions';
+    fetchChatMessages,
+    sendMessage,
+    stopFetchMessages
+} from './actions/chatactions';
 import { fetchDriverEarnings } from './actions/driverearningaction';
 import { fetchEarningsReport } from './actions/earningreportsaction';
 import {
-    fetchUserNotifications,
-    fetchNotifications,
-    editNotifications,
-    sendNotification
-} from './actions/notificationactions';
-import {
-    fetchPromos,
-    editPromo
-} from './actions/promoactions';
-import {
-    addUser,
-    fetchUsers,
-    fetchUsersOnce,
-    fetchDrivers,
-    editUser,
-    updateLicenseImage
-} from './actions/usersactions';
-import { 
-    fetchSettings,
-    editSettings,
-    clearSettingsViewError
-} from './actions/settingsactions';
-import { 
-    fetchPaymentMethods,
-    addToWallet,
-    updateWalletBalance,
-    clearMessage
-} from './actions/paymentactions';
-import {
-    updateTripPickup,
-    updateTripDrop,
-    updateTripCar,
-    updatSelPointType,
-    clearTripPoints
-} from './actions/tripactions';
-import {
-    fetchTasks,
-    acceptTask,
-    cancelTask
-} from './actions/taskactions';
+    clearEstimate, getEstimate
+} from './actions/estimateactions';
 import {
     fetchBookingLocations,
     stopLocationFetch
 } from './actions/locationactions';
 import {
-    fetchChatMessages,
-    sendMessage, 
-    stopFetchMessages
-} from './actions/chatactions';
+    editNotifications, fetchNotifications, fetchUserNotifications, sendNotification
+} from './actions/notificationactions';
 import {
-    fetchWithdraws,
-    completeWithdraw
+    addToWallet, clearMessage, fetchPaymentMethods, updateWalletBalance
+} from './actions/paymentactions';
+import {
+    editPromo, fetchPromos
+} from './actions/promoactions';
+import {
+    clearSettingsViewError, editSettings, fetchSettings
+} from './actions/settingsactions';
+import {
+    acceptTask,
+    cancelTask, fetchTasks
+} from './actions/taskactions';
+import {
+    clearTripPoints, updateTripCar, updateTripDrop, updateTripPickup, updatSelPointType
+} from './actions/tripactions';
+import {
+    addUser, editUser, fetchDrivers, fetchUsers,
+    fetchUsersOnce, updateLicenseImage
+} from './actions/usersactions';
+import {
+    completeWithdraw, fetchWithdraws
 } from './actions/withdrawactions';
 
 import {
-    MinutesPassed,
-    GetDateString
+    editLanguage, fetchLanguages
+} from './actions/languageactions';
+import {
+    GetDateString, MinutesPassed
 } from './other/DateFunctions';
-import { 
-    fetchPlacesAutocomplete,
-    fetchCoordsfromPlace,
-    fetchAddressfromCoords,
-    getDistanceMatrix,
-    getDirectionsApi
-} from './other/GoogleAPIFunctions';
 import {
     GetDistance,
     GetTripDistance
@@ -125,9 +80,8 @@ import {
     countries
 } from './other/GetCountries';
 import {
-    fetchLanguages,
-    editLanguage
-} from './actions/languageactions';
+    fetchAddressfromCoords, fetchCoordsfromPlace, fetchPlacesAutocomplete, getDirectionsApi, getDistanceMatrix
+} from './other/GoogleAPIFunctions';
 import {
     RequestPushMsg
 } from './other/NotificationFunctions';
@@ -310,4 +264,5 @@ export {
     FirebaseContext,
     FirebaseProvider,
     store
-}
+};
+
